@@ -1,6 +1,21 @@
 The Gotobootloader Open Source Project
 ================================================================================
 
+Prepare Cross Toolchain
+--------------------------------------------------------------------------------
+
+Get Cross Toolchain:
+
+```
+$ git clone https://github.com/gotoos/compiler_linux-x86_arm-gcc_arm-none-linux-gnueabi-4.7.3.git
+$ git clone https://github.com/gotoos/compiler_linux-x86_arm-gcc_arm-none-eabi-4.7.3.git
+$
+```
+
+The default installation path is at your home, you can also modify it to be '/opt/CodeSourcery/Sourcery_G++_Lite'
+in the installation process, in default, it will automatically modify $PATH in the file '.bashrc' at your home,
+thus add product to the $PATH for you only.
+
 Download U-Boot
 --------------------------------------------------------------------------------
 
